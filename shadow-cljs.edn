@@ -1,0 +1,9 @@
+{:source-paths ["src"]
+
+ :dependencies [[instaparse "1.5.0"]]
+
+ :builds {:app {:target :browser
+                :output-dir "assets/js"
+                ;; :asset-path "assets/js"
+                :modules {:xbnf {:entries [xbnf]}}}}}
+
